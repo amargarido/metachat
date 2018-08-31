@@ -1,6 +1,0 @@
-[package]
-name = "metachat"
-version = "0.1.0"
-authors = ["amargarido"]
-
-[dependencies]
