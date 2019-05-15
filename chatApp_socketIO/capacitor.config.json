@@ -1,0 +1,7 @@
+{
+  "appId": "br.eti.meta.metachat.client",
+  "appName": "chatApp",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

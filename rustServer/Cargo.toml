@@ -1,29 +1,17 @@
 [package]
-name = "rustServer"
-version = "0.1.0"
-authors = ["amargarido"]
+name = "server_websocket"
+version = "0.1.0" # don't forget to update html_root_url
+description = "serve the web at warp speeds"
+authors = ["Alberto Margarido <adeveloper@bol.com.br>"]
+# license = "MIT"
+# readme = "README.md"
+# documentation = "https://docs.rs/warp"
+repository = "https://github.com/amargarido/metachat"
+categories = ["web-programming::http-server"]
+keywords = ["chat", "server", "http", "websocket"]
 
-[[bin]]
-name = "server"
-path = "src/main.rs"
+
 
 [dependencies]
-rand = "*"
-bytes = "0.4"
-byteorder = "1.1"
-futures = "0.1"
-tokio-io = "0.1"
-tokio-core = "0.1"
-env_logger = "*"
-
-serde = "1.0.60"
-serde_json = "1.0"
-serde_derive = "1.0"
-
-actix = "0.7"
-actix-web = "0.7"
-
-[dev-dependencies]
-#compiletest_rs = "0.3"
-#serde_bytes = "0.10"
-
+warp = "0.1.5"
+pretty_env_logger = "0.3.0"

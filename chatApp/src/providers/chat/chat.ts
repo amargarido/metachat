@@ -3,7 +3,9 @@ import { Subject } from 'rxjs/Rx';
 import { WebsocketProvider } from '../websocket/websocket';
 
 // const CHAT_URL = 'ws://localhost:9876';
-const CHAT_URL = 'ws://127.0.0.1:9876/ws/'; // barra no final faz parte.
+// const CHAT_URL = 'ws://127.0.0.1:9876/ws/'; // barra no final faz parte.
+
+const CHAT_URL = 'ws://127.0.0.1:3030/echo/'; // barra no final faz parte.
 
 export interface MessageJSON {
 	author: string,
