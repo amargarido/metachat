@@ -28,7 +28,7 @@ export class HomePage {
   sendMsg() {
 		console.log('new message from client to websocket: ', this.Msg_enviada);
 		this.chatService.messages.next(this.Msg_enviada);
-		this.Msg_enviada.message = '';
+		// this.Msg_enviada.message = '';
 	}
 
 }
