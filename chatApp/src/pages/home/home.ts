@@ -21,8 +21,8 @@ export class HomePage {
 	}
 
   private Msg_enviada = {
-		author: 'tutorialedge',
-		message: 'this is a test message'
+		author: 'Author Aqui',
+		message: 'Mensagem do autor aqui'
 	}
 
   sendMsg() {

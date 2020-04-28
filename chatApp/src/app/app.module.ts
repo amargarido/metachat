@@ -4,12 +4,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
-import { SplashScreen } from '@ionic-native/splash-screen';
-import { StatusBar } from '@ionic-native/status-bar';
+import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { SplashScreen } from '@ionic-native/splash-screen/ngx';
  
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-// import { SocketIoModule, SocketIoConfig } from 'ng-socket-io';
+
 import { WebsocketProvider } from '../providers/websocket/websocket';
 import { ChatProvider } from '../providers/chat/chat';
 //const config: SocketIoConfig = { url: 'ws://localhost:5000', options: {} };
