@@ -1,7 +1,14 @@
 # Ionic (6) client with Rust server over WebSocket
 
-## Build and Run
+This sample application is written in Ionic6 (Angular) on the client side 
+and [rust-lang.org](https://rust-lang.org) (rust edition 2021) on the server side. 
 
+It's a demonstration of how to use Angular and websocket for a web chat. Everything 
+the client writes to the websocket, the server echoes back (see developer console in 
+the browser).
+
+
+## Build and Run
 
 
 ### Server side (Rust)
