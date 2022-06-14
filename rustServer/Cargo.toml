@@ -2,16 +2,17 @@
 name = "server_websocket"
 version = "0.1.0" # don't forget to update html_root_url
 description = "serve the web at warp speeds"
-authors = ["Alberto Margarido <adeveloper@bol.com.br>"]
+authors = ["Alberto Margarido <contato@meta.eti.br>"]
 # license = "MIT"
 # readme = "README.md"
 # documentation = "https://docs.rs/warp"
 repository = "https://github.com/amargarido/metachat"
 categories = ["web-programming::http-server"]
-keywords = ["chat", "server", "http", "websocket"]
-
+keywords = ["chat", "server", "http", "websocket","ionic"]
+edition = "2021"
 
 
 [dependencies]
-warp = "0.1.5"
-pretty_env_logger = "0.3.0"
+tokio = {version = "1.4.0", features = ["rt", "rt-multi-thread", "macros"]}
+warp = {version="*", features = ["tls"]}
+futures = "*"
