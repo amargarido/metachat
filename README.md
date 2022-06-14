@@ -1,4 +1,4 @@
-# Ionic (5) client with Rust server over WebSocket
+# Ionic (6) client with Rust server over WebSocket
 
 ## Build and Run
 
@@ -23,13 +23,12 @@ cargo build
 cargo run
 ```
 
-### Client side (Ionic 5 using Angular 8)
+### Client side (Ionic 6 using Angular 14)
 
 1. Install [Ionic](https://ionicframework.com/docs/intro/cli) Framework (Node + Ionic)
 2. `cd chatApp`
 3. npm install
 4. Run using command `ionic serve`
-
 
 
 ```cmd
@@ -38,18 +37,21 @@ npm install
 ionic serve
 ```
 
-#### All outputs into the browser developer console
 
 ## Not implemented Improvements
 
-* Client connect automatically if server detected.
+* Client connect automatically if server is detected.
 
 
-## Log
+## All log outputs into the browser developer console
+
+### Browser Developer Console
 
 ~~~
-Final Sample Version - Date 2020-04-29 - Ionic5, Angular 8, WebSocket
-Alpha Version - Date 2020-04-28 - Upgrade Ionic 5, falta retirar eventos para Subject
-Alpha Version - Date 2019-05-15
-Alpha Version - Date 2018-08-30
+Angular is running in development mode. Call enableProdMode() to enable production mode.    core.mjs:25858:16
+Sending to websocket:  
+Object { author: "Author, NEW data here.", message: "NEW message from Author here." }       tab1.page.ts:44:12
+message received: [object Object]                                                           tab1.page.ts:24:16
+ServerResponse author.: Author, NEW data here.                                              tab1.page.ts:25:16
+ServerResponse message: NEW message from Author here.                                       tab1.page.ts:26:16
 ~~~
