@@ -44,6 +44,18 @@ npm install
 ionic serve
 ```
 
+#### Updating packages
+
+Link [HERE](https://sebhastian.com/npm-update-all-packages/)
+
+1. npm outdated
+2. npm update (all minor packages respecting `packacge.json` version constraints)
+
+```cmd
+npm outdated
+npm update
+```
+
 
 ## Not implemented Improvements
 
