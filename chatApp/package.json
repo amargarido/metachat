@@ -28,6 +28,7 @@
     "critters": "^0.0.20",
     "ionicons": "^7.1.1",
     "rxjs": "~7.8.1",
+    "ts-evaluator": "^1.2.0",
     "tslib": "^2.5.2",
     "zone.js": "^0.13.0"
   },
